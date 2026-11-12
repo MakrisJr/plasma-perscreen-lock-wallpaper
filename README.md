@@ -7,6 +7,7 @@ Plasma lets you give each monitor its own **desktop** wallpaper, but the **lock 
 This repo provides a small wallpaper plugin, **Per-Screen Image**. You select it as the lock screen's wallpaper type, and it shows a different image on each monitor based on which port the monitor is plugged into (`DP-1`, `HDMI-A-1`, …). It doesn't patch kscreenlocker or need root.
 
 ![Lock screen on two monitors, each showing a different wallpaper: a landscape image on the left and a portrait image on the right](assets/lockscreen-preview.png)
+<sub>Wallpaper: Minecraft artwork via [Wallhaven](https://whvn.cc/l31vz2), see [Credits](#credits).</sub>
 
 ## Requirements
 
@@ -100,4 +101,8 @@ The archive can be installed through *Get New Wallpaper Plugins* or uploaded to 
 
 ## License
 
-[GPL-2.0-or-later](LICENSE)
+The plugin code is licensed under [GPL-2.0-or-later](LICENSE).
+
+## Credits
+
+The wallpapers in the screenshots are made from a piece of Minecraft artwork, [*The Battle of the End has begun*](https://www.reddit.com/r/Minecraft/comments/vfgjo7/the_battle_of_the_end_has_begun_4k/), originally posted on r/Minecraft. Found via [Wallhaven](https://whvn.cc/l31vz2). The image belongs to its original creator, and Minecraft is a trademark of Mojang Studios. The wallpapers are **not** part of this repository's GPL license and are only shown to demonstrate the plugin.
