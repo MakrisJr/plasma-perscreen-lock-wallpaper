@@ -33,7 +33,7 @@ enable_lockscreen() {
     need kwriteconfig6
     kwriteconfig6 --file kscreenlockerrc --group Greeter --key WallpaperPlugin "$PLUGIN_ID"
     echo "Lock screen wallpaper type set to Per-Screen Image."
-    echo "Pick images in System Settings → Screen Locking → Appearance → Configure…"
+    echo "Pick images in System Settings → Screen Locking → Appearance"
 }
 
 uninstall_plugin() {

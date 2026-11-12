@@ -6,6 +6,8 @@ Plasma lets you give each monitor its own **desktop** wallpaper, but the **lock 
 
 This repo provides a small wallpaper plugin, **Per-Screen Image**. You select it as the lock screen's wallpaper type, and it shows a different image on each monitor based on which port the monitor is plugged into (`DP-1`, `HDMI-A-1`, …). It doesn't patch kscreenlocker or need root.
 
+![Lock screen on two monitors, each showing a different wallpaper: a landscape image on the left and a portrait image on the right](assets/lockscreen-preview.png)
+
 ## Requirements
 
 - KDE Plasma 6 (tested on 6.8, Wayland)
@@ -23,7 +25,7 @@ cd plasma-perscreen-lock-wallpaper
 
 ## Configure
 
-**System Settings → Screen Locking → Appearance → Configure…**, then set *Wallpaper type* to **Per-Screen Image**.
+**System Settings → Screen Locking → Appearance**, then set *Wallpaper type* to **Per-Screen Image**.
 
 The settings page has:
 
@@ -31,6 +33,8 @@ The settings page has:
 - rows for monitors you've set an image for that aren't currently plugged in, so you can remove them
 - a **fallback image** for any monitor without its own image
 - positioning (cropped, fit, stretched, centered, tiled) and a background colour
+
+![Screen Locking settings with Per-Screen Image selected, showing an image picker for each monitor plus fallback image, positioning and background colour options](assets/lockscreen-settings.png)
 
 ### Config file
 
