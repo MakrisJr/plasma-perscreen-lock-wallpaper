@@ -28,13 +28,6 @@ cd plasma-perscreen-lock-wallpaper
 
 **System Settings → Screen Locking → Appearance**, then set *Wallpaper type* to **Per-Screen Image**.
 
-The settings page has:
-
-- one row for each connected monitor, with a preview and **Choose…** / **Clear** buttons
-- rows for monitors you've set an image for that aren't currently plugged in, so you can remove them
-- a **fallback image** for any monitor without its own image
-- positioning (cropped, fit, stretched, centered, tiled) and a background colour
-
 ![Screen Locking settings with Per-Screen Image selected, showing an image picker for each monitor plus fallback image, positioning and background colour options](assets/lockscreen-settings.png)
 
 ### Config file
