@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="ScreenImages" type="StringList">
+      <label>Per-screen images, each entry "CONNECTOR=file:///path/to/image"</label>
+      <default></default>
+    </entry>
+    <entry name="FallbackImage" type="String">
+      <label>Image for screens that have no entry in ScreenImages</label>
+      <default></default>
+    </entry>
+    <entry name="FillMode" type="int">
+      <label>QtQuick Image fill mode (0 stretch, 1 fit, 2 crop, 3 tile, 6 centered)</label>
+      <default>2</default>
+    </entry>
+    <entry name="Color" type="Color">
+      <label>Background colour behind the image</label>
+      <default>#000000</default>
+    </entry>
+  </group>
+</kcfg>

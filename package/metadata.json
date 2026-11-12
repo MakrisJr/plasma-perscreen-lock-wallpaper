@@ -1,0 +1,13 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Id": "com.github.makrisjr.perscreenimage",
+        "Name": "Per-Screen Image",
+        "Description": "Show a different image on each monitor (works on the lock screen)",
+        "Icon": "preferences-desktop-wallpaper",
+        "License": "GPL-2.0-or-later",
+        "Version": "1.0",
+        "Website": "https://github.com/MakrisJr/plasma-perscreen-lock-wallpaper"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
